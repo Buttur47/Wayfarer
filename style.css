@@ -1,31 +1,24 @@
 html,
 body {
-    height: 100%;
+    height: 200%;
     width: 100%;
     margin: 0;
 }
 
-::-webkit-scrollbar {
-    display: none;
-  }
-
-
-.background_img_div {
-    background-color: green;
-    border: 0; 
-    width: 100%;
-    height: 100%;
-    display: absolute;
+@font-face {
+    font-family: "Comfortaa";
+    src: url("Comfortaa/static/Comfortaa-Bold.ttf") format("truetype");
+    font-weight: 700, 700, 700;
 }
 
-.background_img_div_top {
-    position: absolute;
-    top: 10%;
-    background-color: hsl(208, 49%, 92%);
-    border: 0; 
-    width: 100%;
-    height: 100px;
-    display: absolute;
+h1,
+h3,
+p {
+    font-family: 'Comfortaa';
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 #background_img {
@@ -35,4 +28,133 @@ body {
     height: 100%;
     width: 100%;
     display: absolute;
+    position: absolute;
+}
+
+#logo {
+    color: black;
+}
+
+.background_img_div {
+    background-color: green;
+    border: 0; 
+    width: 100%;
+    height: 85%;
+    top: 15%;
+    display: absolute;
+    position: absolute;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.background_img_div_top {
+    position: absolute;
+    background: linear-gradient(hsl(208, 49, 92));
+    border: 0; 
+    width: 100%;
+    height: 15%;
+    display: absolute;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.choose_your_adventure_div {
+    background-color: hsl(208, 49, 92);
+    border: 0; 
+    width: 50%;
+    height: 190%;
+    top: 120%;
+    left:23%;
+    display: absolute;
+    position: absolute;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.explore {
+    background-color: hsla(87, 30%, 39%, 1);
+    border: 0; 
+    width: 15%;
+    height: 20%;
+    top: 67%;
+    left:43%;
+    display: flex;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.Wayfarer_div {
+    background-color: hsl(208, 49, 92);
+    border: 0; 
+    width: 15%;
+    height: 60%;
+    top: 15%;
+    left:2%;
+    display: flex;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.search_bar {
+    background-color: hsl(208, 49, 92);
+    border: 0; 
+    width: 5%;
+    height: 60%;
+    top: 15%;
+    left:78%;
+    display: flex;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.login {
+    background-color: hsl(208, 49, 92);
+    border: 0; 
+    width: 5%;
+    height: 60%;
+    top: 15%;
+    left:85%;
+    display: flex;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.sign_up {
+    background-color: hsla(87, 30%, 39%, 1);
+    border: 0; 
+    width: 5%;
+    height: 40%;
+    top: 25%;
+    left:92%;
+    display: flex;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.input {
+    background-color: hsla(105, 67%, 99%, 1);
+    border: 0; 
+    width: 80%;
+    height: 50%;
+    top: 92%;
+    left:10%;
+    display: absolute;
+    position: absolute;
+    border-radius: 10px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
