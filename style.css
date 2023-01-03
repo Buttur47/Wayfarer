@@ -346,3 +346,57 @@ p {
     justify-content: center;
     border-radius: 10px;
 }
+
+.Most_Popular {
+    top: 150%;
+    left: -5%;
+    width: 110%;
+    height: 30%;
+    background-color: aqua;
+    border-radius: 50%;
+    display: absolute;
+    position: absolute;
+    text-align:center;
+}
+
+.Accomadations {
+    top: 220%;
+    left: -5%;
+    width: 110%;
+    height: 30%;
+    background-color: aqua;
+    border-radius: 50%;
+    display: absolute;
+    position: absolute;
+    text-align:center;
+}
+
+.Ireland_div {
+    background-color: blue;
+    top: 170%;
+    left: 5%;
+    width: 30%;
+    height: 57%;
+    display: absolute;
+    position: absolute;
+}
+
+.Iceland_div {
+    background-color: blue;
+    top: 170%;
+    left: 36%;
+    width: 30%;
+    height: 55%;
+    display: absolute;
+    position: absolute;
+}
+
+.Greece_div {
+    background-color: blue;
+    top: 170%;
+    left: 67%;
+    width: 30%;
+    height: 58%;
+    display: absolute;
+    position: absolute;
+}
