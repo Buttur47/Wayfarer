@@ -352,7 +352,7 @@ p {
     left: -5%;
     width: 110%;
     height: 30%;
-    background-color: aqua;
+    background-color: hsl(208, 49%, 92%);
     border-radius: 50%;
     display: absolute;
     position: absolute;
@@ -364,7 +364,7 @@ p {
     left: -5%;
     width: 110%;
     height: 30%;
-    background-color: aqua;
+    background-color: hsl(208, 49%, 92%);
     border-radius: 50%;
     display: absolute;
     position: absolute;
@@ -374,9 +374,9 @@ p {
 .Ireland_div {
     background-color: blue;
     top: 170%;
-    left: 5%;
+    left: 3%;
     width: 30%;
-    height: 57%;
+    height: 57.5%;
     display: absolute;
     position: absolute;
 }
@@ -384,7 +384,7 @@ p {
 .Iceland_div {
     background-color: blue;
     top: 170%;
-    left: 36%;
+    left: 35%;
     width: 30%;
     height: 55%;
     display: absolute;
@@ -399,4 +399,76 @@ p {
     height: 58%;
     display: absolute;
     position: absolute;
+}
+
+#Ireland {
+    border: 0;
+    height: 100%;
+    width: 100%;
+    display: absolute;
+    position: absolute;
+    object-fit: cover;
+}
+
+#Iceland {
+    border: 0;
+    height: 100%;
+    width: 100%;
+    display: absolute;
+    position: absolute;
+    object-fit: cover;
+}
+
+#Greece {
+    border: 0;
+    height: 100%;
+    width: 100%;
+    display: absolute;
+    position: absolute;
+    object-fit: cover;
+}
+
+.Ireland_text_div {
+    background-color: transparent;
+    border: 0;
+    width: 15%;
+    height: 10%;
+    top: 210%;
+    left: 10%;
+    display: flex;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.Iceland_text_div {
+    background-color: transparent;
+    border: 0;
+    width: 15%;
+    height: 10%;
+    top: 210%;
+    left: 42%;
+    display: flex;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.Greece_text_div {
+    background-color: transparent;
+    border: 0;
+    width: 15%;
+    height: 10%;
+    top: 210%;
+    left: 75%;
+    display: flex;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
 }
