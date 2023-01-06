@@ -472,3 +472,96 @@ p {
     justify-content: center;
     border-radius: 10px;
 }
+
+.accomadations_1 {
+    background-color: lightgray;
+    width: 35%;
+    height: 80%;
+    top: 320%;
+    left: -9%;
+    display: flex;
+    position: absolute;
+}
+
+.accomadations_1_innerdiv {
+    background-color: lightgray;
+    width: 15%;
+    height: 20%;
+    top: 20%;
+    left: 40%;
+    display: flex;
+    position: absolute;
+}
+
+.accomadations_1_innertext {
+    background-color: lightgray;
+    width: 80%;
+    height: 40%;
+    top: 48%;
+    left: 10%;
+    display: flex;
+    position: absolute;
+    text-align: center;
+}
+
+.accomadations_2 {
+    background-color: lightgray;
+    width: 35%;
+    height: 80%;
+    top: 320%;
+    left: 32%;
+    display: flex;
+    position: absolute;
+}
+
+.accomadations_2_innerdiv {
+    background-color: lightgray;
+    width: 15%;
+    height: 20%;
+    top: 20%;
+    left: 40%;
+    display: flex;
+    position: absolute;
+}
+
+.accomadations_2_innertext {
+    background-color: lightgray;
+    width: 80%;
+    height: 40%;
+    top: 48%;
+    left: 10%;
+    display: flex;
+    position: absolute;
+    text-align: center;
+}
+
+.accomadations_3 {
+    background-color: lightgray;
+    width: 35%;
+    height: 80%;
+    top: 320%;
+    left:73%;
+    display: flex;
+    position: absolute;
+}
+
+.accomadations_3_innerdiv {
+    background-color: lightgray;
+    width: 15%;
+    height: 20%;
+    top: 20%;
+    left: 40%;
+    display: flex;
+    position: absolute;
+}
+
+.accomadations_3_innertext {
+    background-color: lightgray;
+    width: 80%;
+    height: 40%;
+    top: 48%;
+    left: 10%;
+    display: flex;
+    position: absolute;
+    text-align: center;
+}
