@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* Style the ball */
+    #ball {
+      width: 50px;
+      height: 50px;
+      border-radius: 25px;
+      background-color: blue;
+      position: absolute;
+    }
+  </style>
+</head>
+<body>
+  <!-- Add the ball to the page -->
+  <div id="ball"></div>
+  <script>
+    // Get the ball element
+    var ball = document.getElementById("ball");
+
+    // Set the initial position of the ball
+    ball.style.left = "0px";
+    ball.style.top = "0px";
+
+    // Set the initial velocity of the ball
+    var velocity = { x: 1, y: 1 };
+
+    // Set the ball's size
+    var ballSize = 50;
+
+    // Set the ball's speed
+    var speed = 1;
+
+    // Set the frame rate
+    var fps = 60;
+
+    // Set the ball's initial direction
+    var direction = "right";
+
+    // Set the ball's bounce properties
+    var bounce = {
+      left: false,
+    }  

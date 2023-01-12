@@ -1,0 +1,567 @@
+html,
+body {
+    height: 200%;
+    width: 100%;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Comfortaa";
+    src: url("Comfortaa/static/Comfortaa-Bold.ttf") format("truetype");
+    font-weight: 700, 700, 700;
+}
+
+h1,
+h3,
+p {
+    font-family: 'Comfortaa';
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+#background_img {
+    border: 0;
+    height: 100%;
+    width: 100%;
+    display: absolute;
+    position: absolute;
+}
+
+@media only screen and (max-width: 415px) {
+    #background_img {
+        border: 0;
+        height: 40%;
+        width: 100%;
+        display: absolute;
+        position: absolute;
+        padding-top: 420px;
+    }
+}
+
+#logo {
+    color: black;
+}
+
+#down_arrow {
+    color: black;
+    width: 15px;
+    height: 15px;
+}
+
+.background_img_div {
+    background-color: hsl(208, 49, 92);
+    border: 0;
+    width: 100%;
+    height: 90%;
+    top: 10%;
+    display: absolute;
+    position: absolute;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.background_img_div_top {
+    position: absolute;
+    background: linear-gradient(hsl(208, 49, 92));
+    border: 0;
+    width: 100%;
+    height: 10%;
+    display: absolute;
+    /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
+}
+
+.choose_your_adventure_div {
+    background-color: hsl(208, 49, 92);
+    border: 0;
+    width: 50%;
+    height: 300%;
+    top: 105%;
+    left: 25%;
+    display: absolute;
+    position: absolute;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.explore_0 {
+    background-color: hsla(87, 30%, 39%, 1);
+    border: 0;
+    width: 15%;
+    height: 20%;
+    top: 67%;
+    left: 43%;
+    display: flex;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+
+.Wayfarer_div {
+    background-color: hsl(208, 49, 92);
+    width: 15%;
+    height: 60%;
+    top: 15%;
+    display: flex;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.search_bar {
+    background-color: hsl(208, 49, 92);
+    border: 0;
+    width: 5%;
+    height: 60%;
+    top: 15%;
+    left: 78%;
+    display: flex;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.login {
+    background-color: hsl(208, 49, 92);
+    border: 0;
+    width: 5%;
+    height: 60%;
+    top: 15%;
+    left: 85%;
+    display: flex;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.sign_up {
+    background-color: hsla(87, 30%, 39%, 1);
+    border: 0;
+    width: 5%;
+    height: 40%;
+    top: 25%;
+    left: 92%;
+    display: flex;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.input {
+    background-color: hsla(105, 67%, 99%, 1);
+    border: 0;
+    width: 80%;
+    height: 50%;
+    top: 92%;
+    left: 10%;
+    display: absolute;
+    position: absolute;
+    border-radius: 10px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.input_line {
+    background-color: grey;
+    width: 80%;
+    height: 1px;
+    top: 25%;
+    left: 10%;
+    display: absolute;
+    position: absolute;
+}
+
+.flights_box {
+    background-color: hsla(105, 67%, 99%, 1);
+    width: 10%;
+    height: 10%;
+    top: 15%;
+    left: 20%;
+    display: absolute;
+    position: absolute;
+    text-align: center;
+}
+
+.accomadations_box {
+    background-color: hsla(105, 67%, 99%, 1);
+    width: 10%;
+    height: 10%;
+    top: 15%;
+    left: 45%;
+    display: absolute;
+    position: absolute;
+    text-align: center;
+}
+
+.things_box {
+    background-color: hsla(105, 67%, 99%, 1);
+    width: 10%;
+    height: 10%;
+    top: 15%;
+    left: 70%;
+    display: absolute;
+    position: absolute;
+    text-align: center;
+}
+
+.where_are_you_going_title {
+    background-color: hsla(105, 67%, 99%, 1);
+    width: 20%;
+    height: 9%;
+    top: 26%;
+    left: 10%;
+    border-radius: 10px;
+    display: absolute;
+    position: absolute;
+}
+
+.where_are_you_going {
+    background-color: hsla(0, 0%, 92%, 1);
+    width: 26%;
+    height: 10%;
+    top: 35%;
+    left: 10%;
+    border-radius: 10px;
+    display: absolute;
+    position: absolute;
+}
+
+.Guests_title {
+    background-color: hsla(105, 67%, 99%, 1);
+    width: 10%;
+    height: 8%;
+    top: 26%;
+    left: 44%;
+    border-radius: 10px;
+    display: absolute;
+    position: absolute;
+}
+
+.Guests {
+    background-color: hsla(0, 0%, 92%, 1);
+    width: 14%;
+    height: 10%;
+    top: 35%;
+    left: 44%;
+    border-radius: 10px;
+    display: absolute;
+    position: absolute;
+}
+
+.Guests_down_arrow {
+    background-color: hsla(0, 0%, 92%, 1);
+    width: 3%;
+    height: 6%;
+    top: 35%;
+    left: 55%;
+    border-radius: 10px;
+    display: absolute;
+    position: absolute;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.Dates_title {
+    background-color: hsla(105, 67%, 99%, 1);
+    width: 10%;
+    height: 8%;
+    top: 26%;
+    left: 65%;
+    border-radius: 10px;
+    display: absolute;
+    position: absolute;
+}
+
+.From {
+    background-color: hsla(0, 0%, 92%, 1);
+    width: 12%;
+    height: 10%;
+    top: 35%;
+    left: 65%;
+    border-radius: 10px;
+    display: absolute;
+    position: absolute;
+}
+
+.From_down_arrow {
+    background-color: hsla(0, 0%, 92%, 1);
+    width: 3%;
+    height: 6%;
+    top: 35%;
+    left: 74%;
+    border-radius: 10px;
+    display: absolute;
+    position: absolute;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.To {
+    background-color: hsla(0, 0%, 92%, 1);
+    width: 12%;
+    height: 10%;
+    top: 35%;
+    left: 78%;
+    border-radius: 10px;
+    display: absolute;
+    position: absolute;
+}
+
+.To_down_arrow {
+    background-color: hsla(0, 0%, 92%, 1);
+    width: 3%;
+    height: 6%;
+    top: 35%;
+    left: 87%;
+    border-radius: 10px;
+    display: absolute;
+    position: absolute;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.explore_1 {
+    background-color: hsla(87, 30%, 39%, 1);
+    border: 0;
+    width: 10%;
+    height: 12%;
+    top: 60%;
+    left: 45%;
+    display: flex;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.Most_Popular {
+    top: 150%;
+    left: -5%;
+    width: 110%;
+    height: 30%;
+    background-color: hsl(208, 49%, 92%);
+    border-radius: 50%;
+    display: absolute;
+    position: absolute;
+    text-align:center;
+}
+
+.Accomadations {
+    top: 220%;
+    left: -5%;
+    width: 110%;
+    height: 30%;
+    background-color: hsl(208, 49%, 92%);
+    border-radius: 50%;
+    display: absolute;
+    position: absolute;
+    text-align:center;
+}
+
+.Ireland_div {
+    background-color: blue;
+    top: 170%;
+    left: 3%;
+    width: 30%;
+    height: 57.5%;
+    display: absolute;
+    position: absolute;
+}
+
+.Iceland_div {
+    background-color: blue;
+    top: 170%;
+    left: 35%;
+    width: 30%;
+    height: 55%;
+    display: absolute;
+    position: absolute;
+}
+
+.Greece_div {
+    background-color: blue;
+    top: 170%;
+    left: 67%;
+    width: 30%;
+    height: 58%;
+    display: absolute;
+    position: absolute;
+}
+
+#Ireland {
+    border: 0;
+    height: 100%;
+    width: 100%;
+    display: absolute;
+    position: absolute;
+    object-fit: cover;
+}
+
+#Iceland {
+    border: 0;
+    height: 100%;
+    width: 100%;
+    display: absolute;
+    position: absolute;
+    object-fit: cover;
+}
+
+#Greece {
+    border: 0;
+    height: 100%;
+    width: 100%;
+    display: absolute;
+    position: absolute;
+    object-fit: cover;
+}
+
+.Ireland_text_div {
+    background-color: transparent;
+    border: 0;
+    width: 15%;
+    height: 10%;
+    top: 210%;
+    left: 10%;
+    display: flex;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.Iceland_text_div {
+    background-color: transparent;
+    border: 0;
+    width: 15%;
+    height: 10%;
+    top: 210%;
+    left: 42%;
+    display: flex;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.Greece_text_div {
+    background-color: transparent;
+    border: 0;
+    width: 15%;
+    height: 10%;
+    top: 210%;
+    left: 75%;
+    display: flex;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.accomadations_1 {
+    background-color: lightgray;
+    width: 35%;
+    height: 80%;
+    top: 320%;
+    left: -9%;
+    display: flex;
+    position: absolute;
+}
+
+.accomadations_1_innerdiv {
+    background-color: lightgray;
+    width: 15%;
+    height: 20%;
+    top: 20%;
+    left: 40%;
+    display: flex;
+    position: absolute;
+}
+
+.accomadations_1_innertext {
+    background-color: lightgray;
+    width: 80%;
+    height: 40%;
+    top: 48%;
+    left: 10%;
+    display: flex;
+    position: absolute;
+    text-align: center;
+}
+
+.accomadations_2 {
+    background-color: lightgray;
+    width: 35%;
+    height: 80%;
+    top: 320%;
+    left: 32%;
+    display: flex;
+    position: absolute;
+}
+
+.accomadations_2_innerdiv {
+    background-color: lightgray;
+    width: 15%;
+    height: 20%;
+    top: 20%;
+    left: 40%;
+    display: flex;
+    position: absolute;
+}
+
+.accomadations_2_innertext {
+    background-color: lightgray;
+    width: 80%;
+    height: 40%;
+    top: 48%;
+    left: 10%;
+    display: flex;
+    position: absolute;
+    text-align: center;
+}
+
+.accomadations_3 {
+    background-color: lightgray;
+    width: 35%;
+    height: 80%;
+    top: 320%;
+    left:73%;
+    display: flex;
+    position: absolute;
+}
+
+.accomadations_3_innerdiv {
+    background-color: lightgray;
+    width: 15%;
+    height: 20%;
+    top: 20%;
+    left: 40%;
+    display: flex;
+    position: absolute;
+}
+
+.accomadations_3_innertext {
+    background-color: lightgray;
+    width: 80%;
+    height: 40%;
+    top: 48%;
+    left: 10%;
+    display: flex;
+    position: absolute;
+    text-align: center;
+}
